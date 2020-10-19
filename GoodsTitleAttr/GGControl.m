@@ -126,4 +126,13 @@
     return lineView;
 }
 
+
+
++(UIView *)getLineViewWithColor1:(UIColor *)color{
+    
+    UIView *lineView = [[UIView alloc] init];
+    lineView.backgroundColor = color;
+    return lineView;
+}
+
 @end
